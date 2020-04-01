@@ -23,7 +23,7 @@ words = vectorizer.get_feature_names()
 #stemming words:
 stemmed_words = ""
 for word in words:
-    stemmed += f" {lancaster.stem(word)}"
+    stemmed_words += f" {lancaster.stem(word)}"
 
 #print(stemmed)
 #print(words)
